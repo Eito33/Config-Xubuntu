@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+< HEAD
 *** Export HTML ***
 *******************
 
@@ -27,6 +27,7 @@
     Toutes les infos concernant l'iso se trouve <a href="http://xubuntu.fr/">ici</a>. (V. 16.04LTS)<br />
     Toutes les infos pour la doc se trouve <a href="https://doc.ubuntu-fr.org/">ici</a>.<br />
     Ce fichier est disponible au format txt.<br />
+    Pour tous télécharger d'un coup utiliser la commande <pre><code>git clone https://github.com/Eito33/Config-Xubuntu.git</code></pre>
     Mise a jour le 29/06/2017
 </p><br />
 <br />
@@ -38,8 +39,8 @@
 <font color="red"><i>Nécessite l'installation de Git (sudo apt-get install git)</i></font><br /><br />
 Le theme choisit est Arc-Flatabulous. Vous pouvez le télécharger a partir d'<a href="">ici</a>. Néanmoins il se trouve par défaut dans le répository <a href="https://github.com/andreisergiu98/arc-flatabulous-theme">suivant</a>.<br /><br />
 
-<pre><code>code</code> <font color="red">Repository perso</font></pre><br />
-<pre><code>git clone https://github.com/andreisergiu98/arc-flatabulous-theme</code>  <font color="red">Autre repository</font></pre><br />
+<pre><code>git clone https://github.com/Eito33/Config-Xubuntu.git</code></pre><br />
+<pre><code>git clone https://github.com/andreisergiu98/arc-flatabulous-theme</code></pre><br />
 
 Une fois le theme télécharger, accéder via le terminal au dossier ou il a été mis (via la commande cd).<br /><br />
 
@@ -54,8 +55,8 @@ Il ne vous reste plus cas accéder au paramétres d'apparence et au Gestionnaire
 <font color="red"><i>Nécessite l'installation de Git (sudo apt-get install git)</i></font><br /><br />
 Le theme choisit pour les icones est Arc Icon. Vous pouvez le télécharger a partir d'<a href="">ici</a>. Néanmoins il se trouve par défaut dans le répository <a href="https://github.com/horst3180/arc-icon-theme">suivant</a>.<br /><br />
 
-<pre><code>code</code> <font color="red">Repository perso</font></pre><br />
-<pre><code>git clone https://github.com/horst3180/arc-icon-theme --depth 1</code>  <font color="red">Autre repository</font></pre><br />
+<pre><code>git clone https://github.com/Eito33/Config-Xubuntu.git</code></pre><br />
+<pre><code>git clone https://github.com/horst3180/arc-icon-theme --depth 1</code></pre><br />
 
 Une fois le theme télécharger, accéder via le terminal au dossier ou il a été mis (via la commande cd).<br /><br />
 
@@ -77,13 +78,13 @@ Pour installez xampp vous devez dans un premier temps choisir la version a tél�
 Une fois le logiciel télécharger, accéder via le terminal au dossier ou il a été mis (via la commande cd).<br /><br />
 
 Puis rentrer les commandes suivante : <br /><br />
-<pre><code>sudo chmod 755 xampp-linux-*-installer.run</code> <font color="red">Vérifier le nom de l'app</font></pre><br />
-<pre><code>sudo ./xampp-linux-*-installer.run</code> <font color="red">Vérifier le nom de l'app</font></pre><br />
-<pre><code>sudo ln -s /opt/lampp/lampp /usr/bin/lampp</code> <font color="red">Permet de lancer Xampp depuis un terminal avec la commande suivante : sudo lampp start</font></pre><br />
+<pre><code>sudo chmod 755 xampp-linux-*-installer.run</code> </pre><br />
+<pre><code>sudo ./xampp-linux-*-installer.run</code></pre><br />
+<pre><code>sudo ln -s /opt/lampp/lampp /usr/bin/lampp</code></pre><br />
 </p><br />
 <p>
 <b><h4>Brackets</h4></b><br />
-<font color="red"><i>Nécessite l'installation de <a href="">libgcrypt11_1.5.3.deb</a></i></font><br /><br />
+<font color="red"><i>Nécessite l'installation de <a href="https://github.com/Eito33/Config-Xubuntu/tree/master/lib">libgcrypt11_1.5.3.deb</a></i></font><br /><br />
 
 Pour installez brackets vous devez dans un premier temps obtenir le .deb a télécharger sur le site de <a href="">brackets</a>.
 <br/>
