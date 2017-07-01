@@ -1,5 +1,5 @@
-# Config Xubuntu
-![ImageLOAD](http://i.imgur.com/4GPHrtH.png)
+# Config Xubuntu - `V. 16.04LTS`
+![ImageLOAD](http://i.imgur.com/MWCP9Jv.png)
 
 ## SOMMAIRE : 
 
@@ -7,6 +7,7 @@
 * Environement Graphique
 * Logiciels
 * Autres
+* Ressources
 
 
 ------------------------------
@@ -95,22 +96,30 @@ Puis rentrer les commandes suivante :
 
 ` Vérifier bien que le nom du fichier correspond !`
 
-[Logo Xampp](https://drive.google.com/drive/folders/0B8eas3cznJoBRGxHdVlFeHJUX0E?usp=sharing) pour le lanceur du Tableau de Bord.
 
-#### b) Brackets
-`Nécessite l'installation de ` **[libgcrypt11_1.5.3.deb](https://github.com/Eito33/Config-Xubuntu/tree/master/lib)**
+#### b) Visual Studio Code
 
-Pour installez brackets vous devez dans un premier temps obtenir le .deb a télécharger sur le site de [Brackets](http://brackets.io/).
+Pour installez Visual Studio Code vous devez dans un premier temps obtenir le .deb a télécharger sur le site de [Visual Studio](https://code.visualstudio.com/).
 Une fois le logiciel télécharger, il suffit de lancer le .deb.
 
 **Liste des plugins indispensable :**
-* Beautify
-* Brackets Tree Icons
-* PHP Syntax Hint
-* Quick Menu Search
+* [IntelliSense for CSS class names](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+* [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)
 
-`Penser a lancer Brackets dans un terminal avec la commande sudo pour qu'il puisse modifier n'importe quel fichier.`
 
+### c) OverGrive
+
+Pour installez Overgrive vous devez dans un premier temps obtenir le .deb a télécharger sur le site de [Overgrive](https://www.thefanclub.co.za/overgrive).
+
+Une fois télécharger lancer la commande suivante via un `terminal` :
+
+    sudo add-apt-repository universe && sudo apt-get update
+
+
+Une fois les dépots validés il ne vous reste plus cas installez le .deb
+
+
+`Liste a compléter`
 
 
 
@@ -120,11 +129,22 @@ Liste de tous les logiciels utile installer par défaut :
 
 * [Chromium](https://doc.ubuntu-fr.org/chromium-browser)
 * [Firefox](https://doc.ubuntu-fr.org/firefox)
-* [Brackets](http://brackets.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [Xampp](https://doc.ubuntu-fr.org/xampp)
 * [Gimp](https://doc.ubuntu-fr.org/gimp)
 * [Discord](https://doc.ubuntu-fr.org/discord)
-* [Nautilus ](https://doc.ubuntu-fr.org/nautilus)
+* [Nautilus](https://doc.ubuntu-fr.org/nautilus)
+* [Overgrive](https://doc.ubuntu-fr.org/google_drive)
+* [Git](https://doc.ubuntu-fr.org/git)
 
 
-` Editer par Eito33 pour un usage personel `
+` Edité par Eito33 pour un usage personel `
+
+
+### 4. Ressources
+
+Liste des ressources pour la configuration
+
+* [Icon Arch Linux](https://drive.google.com/drive/folders/0B8eas3cznJoBRGxHdVlFeHJUX0E?usp=sharing)
+* [Icon Xampp](https://drive.google.com/drive/folders/0B8eas3cznJoBRGxHdVlFeHJUX0E?usp=sharing)
+* [Fond d'écran Montagne](https://drive.google.com/drive/folders/0B8eas3cznJoBRGxHdVlFeHJUX0E?usp=sharing)
