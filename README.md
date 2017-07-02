@@ -1,5 +1,5 @@
 # Config Xubuntu - `V. 16.04LTS`
-![ImageLOAD](http://i.imgur.com/MWCP9Jv.png)
+![ImageLOAD](http://i.imgur.com/Hs1aI7b.png)
 
 ## SOMMAIRE : 
 
@@ -90,7 +90,7 @@ Pour installez xampp vous devez dans un premier temps choisir la version a tél�
 
 Puis rentrer les commandes suivante : 
 
-    sudo chmod 755 xampp-linux-*-installer.run<
+    sudo chmod 755 xampp-linux-*-installer.run
     sudo ./xampp-linux-*-installer.run
     sudo ln -s /opt/lampp/lampp /usr/bin/lampp
 
@@ -119,11 +119,37 @@ Une fois télécharger lancer la commande suivante via un `terminal` :
 Une fois les dépots validés il ne vous reste plus cas installez le .deb
 
 
-`Liste a compléter`
-
-
-
 ### 3. Autres
+
+### a) Pour PC portable UEFI (Aspire ONE)
+
+Pour l'installation de [Xubuntu](https://doc.ubuntu-fr.org/uefi) sur un PC portable ACER Aspire ONE.
+ Ne pas désactiver le Secure Boot et laisser par défaut la configuration du bios.
+
+* Booter sur la clé USB en mode UEFI
+* Installez Xubuntu normalement
+* Ne pas installer les Mise a Jour ni les programmes additionel
+* Créer soit même les partitions comme suit 
+    * Partition Swap (1x a 1,5x votre ram)
+    * Partiont EFI (~600mo)
+    * Partition / (Le reste)
+    * `Installez le programme de démarrage sur la partition EFI`
+* Redemarrer aprés l'installation
+* Au redemarrage (aprés avoir enlever la Clé USB) appuyer sur F2 pour accéder au Bios
+* Allez dans le 3éme onglets `Sécurity`
+* Accédez a l'option `select an uefi as trusted for executing`
+* Séléctionnez `grubx64.efi` et nommez le `Xubuntux64`
+* Redemarrer a nouveau et retourner dans le bios
+* Allez dans l'ongle `Boot`
+* Il suffit maintenant de remonter l'option `EFI File Boot 0 : Xubuntux64` en premiere position
+* Redemarrer
+
+### 4. Ressources
+
+Liste des ressources pour la configuration
+
+* [Icon Xampp](https://drive.google.com/drive/folders/0B8eas3cznJoBRGxHdVlFeHJUX0E?usp=sharing)
+* [Fond d'écran Montagne](https://drive.google.com/drive/folders/0B8eas3cznJoBRGxHdVlFeHJUX0E?usp=sharing)
 
 Liste de tous les logiciels utile installer par défaut :
 
@@ -139,12 +165,3 @@ Liste de tous les logiciels utile installer par défaut :
 
 
 ` Edité par Eito33 pour un usage personel `
-
-
-### 4. Ressources
-
-Liste des ressources pour la configuration
-
-* [Icon Arch Linux](https://drive.google.com/drive/folders/0B8eas3cznJoBRGxHdVlFeHJUX0E?usp=sharing)
-* [Icon Xampp](https://drive.google.com/drive/folders/0B8eas3cznJoBRGxHdVlFeHJUX0E?usp=sharing)
-* [Fond d'écran Montagne](https://drive.google.com/drive/folders/0B8eas3cznJoBRGxHdVlFeHJUX0E?usp=sharing)
