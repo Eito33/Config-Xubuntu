@@ -3,11 +3,11 @@
 
 ## SOMMAIRE : 
 
-* Général
-* Environement Graphique
-* Logiciels
-* Autres
-* Ressources
+* [Général](https://github.com/Eito33/Config-Xubuntu#1-général)
+* [Environement Graphique](https://github.com/Eito33/Config-Xubuntu#2-environement-graphique)
+* [Logiciels](https://github.com/Eito33/Config-Xubuntu#3-logiciels)
+* [Autres](https://github.com/Eito33/Config-Xubuntu#3-autres)
+* [Ressources](https://github.com/Eito33/Config-Xubuntu#4-ressources)
 
 
 ------------------------------
@@ -25,14 +25,14 @@ Ce dépot concerne principalement les différentes chose a mettre en place apré
         git clone https://github.com/Eito33/Config-Xubuntu.git
 
 
-*Mise a jour le 01/07/2017* 
+*Mise a jour le 02/07/2017* 
 
 ### 2. Environement Graphique
 
 #### a) Theme Arc Flatabulous
 *` Nécessite l'installation de Git (sudo apt-get install git) `*
 
-Le theme choisit est Arc-Flatabulous. Vous pouvez le télécharger a partir d'[ici](https://github.com/Eito33/Config-Xubuntu/tree/master/arc-flatabulous).
+Le theme choisit est Arc-Flatabulous. Vous pouvez le télécharger a partir d'[ici](https://github.com/Eito33/Config-Xubuntu/tree/master/theme/arc-flatabulous).
 Néanmoins il se trouve par défaut dans le répository [suivant](https://github.com/andreisergiu98/arc-flatabulous-theme).
 
 `Repository Perso :`
@@ -58,7 +58,7 @@ Il ne vous reste plus cas accéder au **Paramétres d'apparence** et au **Gestio
 #### b) Arc Icons
 *` Nécessite l'installation de Git (sudo apt-get install git) `*
 
-Le theme choisit pour les icones est Arc Icon. Vous pouvez le télécharger a partir d'[ici](https://github.com/Eito33/Config-Xubuntu/tree/master/arc-icon).
+Le theme choisit pour les icones est Arc Icon. Vous pouvez le télécharger a partir d'[ici](https://github.com/Eito33/Config-Xubuntu/tree/master/theme/arc-icon).
 Néanmoins il se trouve par défaut dans le répository [suivant](https://github.com/horst3180/arc-icon-theme).
 
 `Repository Perso :`
@@ -96,6 +96,11 @@ Puis rentrer les commandes suivante :
 
 ` Vérifier bien que le nom du fichier correspond !`
 
+Pour démarrer ou stop l'éxécution de Xampp il ne vous restera plus cas rentrer les commandes suivante :
+
+    sudo lampp start
+    sudo lampp stop
+
 
 #### b) Visual Studio Code
 
@@ -105,6 +110,8 @@ Une fois le logiciel télécharger, il suffit de lancer le .deb.
 **Liste des plugins indispensable :**
 * [IntelliSense for CSS class names](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
 * [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)
+
+`Liste a compléter`
 
 
 ### c) OverGrive
@@ -116,7 +123,7 @@ Une fois télécharger lancer la commande suivante via un `terminal` :
     sudo add-apt-repository universe && sudo apt-get update
 
 
-Une fois les dépots validés il ne vous reste plus cas installez le .deb
+Une fois les dépots validés il ne vous reste plus cas installez le .deb et a le configurer.
 
 
 ### 3. Autres
@@ -124,15 +131,15 @@ Une fois les dépots validés il ne vous reste plus cas installez le .deb
 ### a) Pour PC portable UEFI (Aspire ONE)
 
 Pour l'installation de [Xubuntu](https://doc.ubuntu-fr.org/uefi) sur un PC portable ACER Aspire ONE.
- Ne pas désactiver le Secure Boot et laisser par défaut la configuration du bios.
+ Ne pas désactiver le [Secure Boot](https://forum.ubuntu-fr.org/viewtopic.php?pid=21468818#p21468818) et laisser par défaut la configuration du bios.
 
 * Booter sur la clé USB en mode UEFI
 * Installez Xubuntu normalement
-* Ne pas installer les Mise a Jour ni les programmes additionel
+* Ne pas installer les Mise a Jour ni les programmes additionnels
 * Créer soit même les partitions comme suit 
-    * Partition Swap (1x a 1,5x votre ram)
-    * Partiont EFI (~600mo)
-    * Partition / (Le reste)
+    * Partition `Swap` (`1x a 1,5x votre ram`)
+    * Partiont `EFI` (`~600mo`)
+    * Partition `/` 
     * `Installez le programme de démarrage sur la partition EFI`
 * Redemarrer aprés l'installation
 * Au redemarrage (aprés avoir enlever la Clé USB) appuyer sur F2 pour accéder au Bios
